@@ -1,4 +1,4 @@
-import { Nav1 } from "./components/Nav1";
+import { Nav1 } from "./navs/Nav1";
 
 export function App() {
   return(
