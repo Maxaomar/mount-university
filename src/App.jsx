@@ -1,7 +1,9 @@
-export function App(params) {
+import { Nav1 } from "./components/Nav1";
+
+export function App() {
   return(
-    <section>
-      <h1>hello</h1>
-    </section>
+    <>
+     <Nav1 />
+    </>
   )
 }
