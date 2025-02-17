@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 nav{
-  
-  background-color: #013378;
+   background-color: #013378;
+}
+
+.list-item{
+  padding: 7px;
+  margin-left: 30px;
 }

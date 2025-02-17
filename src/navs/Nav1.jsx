@@ -1,17 +1,17 @@
 export function Nav1(params) {
   return(
-    <nav className="flex justify-between text-white">
+    <nav className="flex justify-evenly text-white">
       <ul className="flex">
-            <li><a href="">Students</a></li>
-            <li><a href="">Alumni</a></li>
-            <li><a href="">Self Service</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Library</a></li>
-            <li><a href="">Security</a></li>
-            <li><a href="">Feedback</a></li>
-            <li><a href="">Contacts</a></li>
+            <li className="list-item"><a href="">Students</a></li>
+            <li className="list-item"><a href="">Alumni</a></li>
+            <li className="list-item"><a href="">Self Service</a></li>
+            <li className="list-item"><a href="">Careers</a></li>
+            <li className="list-item"><a href="">Library</a></li>
+            <li className="list-item"><a href="">Security</a></li>
+            <li className="list-item"><a href="">Feedback</a></li>
+            <li className="list-item"><a href="">Contacts</a></li>
       </ul>
-      <div>
+      <div className="p-2">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-x-twitter"></i>
