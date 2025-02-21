@@ -1,4 +1,4 @@
-export function Nav2() {
+export function MiddleNav() {
   return (
     <nav className="flex items-center justify-between p-2 bg-nav2 text-white">
 

@@ -1,11 +1,13 @@
-import { Nav1 } from "./navs/Nav1";
-import { Nav2  } from "./navs/Nav2";
+import { BottomNav } from "./navs/BottomNav";
+import { MiddleNav } from "./navs/MiddleNav";
+import { TopNav } from "./navs/TopNav";
 
 export function App() {
   return(
     <>
-     <Nav1 />
-     <Nav2 />
+     <TopNav />
+     <MiddleNav />
+     <BottomNav />
     </>
   )
 }

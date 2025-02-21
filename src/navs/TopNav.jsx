@@ -1,4 +1,4 @@
-export function Nav1(params) {
+export function TopNav() {
   return(
     <nav className="flex justify-evenly text-white">
       <ul className="flex">
