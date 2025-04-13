@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
+/* nav{
    background-color: #013378;
-}
+} */
 
 .list-item{
   padding: 7px;

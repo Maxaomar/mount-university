@@ -1,6 +1,6 @@
 export function TopNav() {
   return(
-    <nav className="flex justify-evenly items-center text-navText text-base navs">
+    <nav className="flex justify-evenly items-center text-navText text-base navs bg-topNavbg">
       <ul className="flex">
             <li className="list-item"><a href="">Students</a></li>
             <li className="list-item"><a href="">Alumni</a></li>

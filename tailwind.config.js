@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        nav2: '#142917',
+        topNavbg: '#013378',
+        middleNavbg: '#142917',
+        bottomNavbg: '#0b408a',
         navText: '#c9c6c5'
       }
     },
