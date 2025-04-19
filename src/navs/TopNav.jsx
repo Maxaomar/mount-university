@@ -1,7 +1,7 @@
 export function TopNav() {
   return(
     <nav className="flex justify-evenly items-center text-navText text-base navs bg-topNavbg">
-      <ul className="flex">
+      <ul className="flex font-topNav gap-8">
             <li className="list-item"><a href="">Students</a></li>
             <li className="list-item"><a href="">Alumni</a></li>
             <li className="list-item"><a href="">Self Service</a></li>
@@ -13,7 +13,7 @@ export function TopNav() {
       </ul>
 
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-5">
           <i class="fa-brands fa-facebook-f"></i>
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-x-twitter"></i>
