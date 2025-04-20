@@ -8,3 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
     background-color: #013378; nav1
+
+
+
+
+1: Tailwind does not allow Capitalization inside theme and expect to be plural e.g colors with small c

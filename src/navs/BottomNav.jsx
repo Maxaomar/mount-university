@@ -1,7 +1,7 @@
 export function BottomNav() {
   return (
-    <section className="flex justify-evenly items-center bg-bottomNavbg text-bottomText">
-      <ul className="flex gap-6 font-bottom">
+    <section className="flex justify-evenly items-center text-navText bg-bottomNavbg">
+      <ul className="flex gap-6 font-fontbottomnav">
         <li><a href="">HOME</a></li>
         <li><a href="">ABOUT US</a></li>
         <li><a href="">ADMISSION</a></li>
