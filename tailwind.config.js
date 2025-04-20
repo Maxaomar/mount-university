@@ -6,25 +6,19 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundColors: {
-        topNavbg: '#013378',
-        middleNavbg: '#142917',
-        bottomNavbg: '#0b408a',
-        navText: '#c9c6c5'
-      },
       fontFamily: {
-        bottomNav: ["Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"],
-        topNav: ["'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"],
+        fonttopnav: ["'Franklin Gothic Medium'", "'Arial Narrow'", "Arial", "sans-serif"],
+        fontbottomnav: ["Cambria", "Cochin", "Georgia", "Times", "'Times New Roman'", "serif"],
       },
 
 
+      colors: {
+        topNavbg: "#013378",
+        middleNavbg: "#142917",
+        bottomNavbg: "#0b408a",
+        navText: "#c9c6c5",
+      },
     },
   },
   plugins: [],
 }
-
-
-
- // textColors: {
-      //   bottomText: '#9da69a'
-      // },
