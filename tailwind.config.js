@@ -14,7 +14,7 @@ export default {
 
       colors: {
         topNavbg: "#013378",
-        middleNavbg: "#142917",
+        middleNavbg: "#234a41",
         bottomNavbg: "#0b408a",
         navText: "#c9c6c5",
       },
