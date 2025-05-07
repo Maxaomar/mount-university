@@ -17,6 +17,7 @@ export default {
         middleNavbg: "#234a41",
         bottomNavbg: "#0b408a",
         navText: "#c9c6c5",
+        lineColor: "#017e0b"
       },
     },
   },
