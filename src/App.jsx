@@ -2,7 +2,7 @@ import { BottomNav } from "./navs/BottomNav";
 import { MiddleNav } from "./navs/MiddleNav";
 import { TopNav } from "./navs/TopNav";
 import { Home } from "./components/Home";
-import { Footer } from "./components/Footer";
+import {AdmissionProcess} from './footer/AdmProcess'
 
 export function App() {
   return(
@@ -11,7 +11,7 @@ export function App() {
      <MiddleNav />
      <BottomNav />
      <Home />
-     <Footer />
+     <AdmissionProcess />
     </>
   )
 }
