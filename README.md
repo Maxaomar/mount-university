@@ -13,3 +13,11 @@ Currently, two official plugins are available:
 
 
 1: Tailwind does not allow Capitalization inside theme and expect to be plural e.g colors with small c
+
+default export `function` and `file` name same  `Enrol.jsx` and export default function Enrol(){}
+
+
+named export
+import { AdmissionProcess } from "./footer/Process";
+        functionName                           fileName
+simply import function name `AdmissionProcess` from this file `"./footer/Process"`
