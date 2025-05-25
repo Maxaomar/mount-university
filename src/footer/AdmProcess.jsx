@@ -13,12 +13,15 @@ export function TitleBox() {
 
 export function AdmissionProcess() {
     return(
-        <article>
+        <article className="">
             <TitleBox />
-            <div>
-                <i class="fa-brands fa-telegram"></i>
-                <h1>Application</h1>
-                <p>Submit your application form and supporting documents online or at our offices.</p>
+        <div className="flex">
+            <div className="flex flex-col">
+                <div className="flex items-center gap-2 text-3xl bg-white">
+                    <i className="fa-brands fa-telegram pt-2"></i>
+                    <h1 className="text-2xl">Application</h1>
+                </div>
+                <p className="ml-7 text-sm">Submit your application form and supporting documents online or at our offices.</p>
             </div>
 
             <div>
@@ -39,6 +42,7 @@ export function AdmissionProcess() {
                 <h1>Reporting</h1>
                 <p>communication to applicant on admission status .</p>
             </div>
-        </article>
+         </div>
+     </article>
     )
 }
