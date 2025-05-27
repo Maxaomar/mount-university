@@ -1,9 +1,13 @@
 import { TitleBox } from "../reusable/Boxes";
 
-export function Enroll(params) {
+export function Enroll() {
     return(
         <section>
             <TitleBox title="ENROL TODAY" />
+            <HealthSciences />
+            <Schools />
+            <QualityAssurance />
+            <ContactUs />
         </section>
     )
 }
