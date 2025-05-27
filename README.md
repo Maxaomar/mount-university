@@ -21,3 +21,4 @@ named export
 import { AdmissionProcess } from "./footer/Process";
         functionName                           fileName
 simply import function name `AdmissionProcess` from this file `"./footer/Process"`
+                             cannot name anything
