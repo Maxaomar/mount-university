@@ -12,3 +12,21 @@ export function Home() {
     </>
   )
 }
+
+
+function MkAcaemic() {
+  return(
+    <section>
+
+    </section>
+  )
+}
+
+
+export function MkAdmissions() {
+  return(
+    <main>
+      
+    </main>
+  )
+}
